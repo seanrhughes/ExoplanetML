@@ -1,0 +1,49 @@
+#
+#   VizieR Astronomical Server vizier.cfa.harvard.edu
+#    Date: 2024-05-17T19:27:18 [V7.33.2]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2024-05-17T19:27:19	  Query execution date
+#INFO	request=https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-oc.form=dec&-out.max=unlimited&-out.all=2&-out.add=_RAJ,_DEJ&-c.eq=J2000&-c.r=  2&-c.u=arcmin&-c.geom=r&-source=III/135A/catalog&-order=I&-out=HD&-out=DM&-out=RAB1900&-out=DEB1900&-out=q_Ptm&-out=Ptm&-out=n_Ptm&-out=q_Ptg&-out=Ptg&-out=n_Ptg&-out=SpT&-out=Int&-out=Rem&-out=Simbad&Simbad=Simbad&-out=_RA.icrs&-out=_DE.icrs&-out=Tycho&Tycho=Tycho&-out.all=2&	  Full request URL (POST)
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=7.33.2	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_3135
+#Name: III/135A
+#Title: Henry Draper Catalogue and Extension (Cannon+ 1918-1924; ADC 1989)
+#INFO	ivoid=ivo://cds.vizier/iii/135a	    IVOID of underlying data collection
+#INFO	creator=Cannon A.J.	    First author or institution
+#INFO	cites=bibcode:1993yCat.3135....0C	    Bibcode of the dataset
+#INFO	original_date=1993	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/III/135A	    Dataset landing page
+#INFO	publication_date=2018-09-21	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Coosys	B1900_1900.000:	eq_FK4 B1900
+#Table	III_135A_catalog:
+#Name: III/135A/catalog
+#Title: Henry Draper catalogue
+#Column	_RAJ2000	(F8.4)	Right ascension (FK5, Equinox=J2000.0) at Epoch=J1900. (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.ra]
+#Column	_DEJ2000	(F8.4)	Declination (FK5, Equinox=J2000.0) at Epoch=J1900. (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.dec]
+#Column	HD	(I6)	[1/272150]+ Henry Draper Catalog (HD) number	[ucd=meta.id;meta.main]
+#Column	DM	(A12)	Durchmusterung identification (1)	[ucd=meta.id]
+#Column	RAB1900	(A7)	Hours RA, equinox B1900, epoch 1900.0	[ucd=pos.eq.ra;meta.main]
+#Column	DEB1900	(A6)	Degrees Dec, equinox B1900, epoch 1900.0	[ucd=pos.eq.dec;meta.main]
+#Column	q_Ptm	(I1)	[0/1]? Code for Ptm: 0 = measured, 1 = value inferred from Ptg and spectral type	[ucd=meta.code.qual]
+#Column	Ptm	(F5.2)	? Photovisual magnitude (2)	[ucd=phot.mag;em.opt.V]
+#Column	n_Ptm	(A1)	[C] 'C' if Ptm is combined value with Ptg	[ucd=meta.note]
+#Column	q_Ptg	(I1)	[0/1]? Code for Ptg: 0 = measured, 1 = value inferred from Ptm and spectral type	[ucd=meta.code.qual]
+#Column	Ptg	(F5.2)	? Photographic magnitude (2)	[ucd=phot.mag;em.opt]
+#Column	n_Ptg	(A1)	[C] 'C' if Ptg is combined value for this entry and the following or preceding entry	[ucd=meta.note]
+#Column	SpT	(A3)	Spectral type	[ucd=src.spType]
+#Column	Int	(A2)	[ 0-9B] Photographic intensity of spectrum (3)	[ucd=phot.count;em.opt]
+#Column	Rem	(A1)	[DEGMR*] Remarks, see note (4)	[ucd=meta.note]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]
+#Column	_RA.icrs	(A10)	Right ascension (ICRS) at Epoch=J1900. (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.ra]
+#Column	_DE.icrs	(A9)	Declination (ICRS) at Epoch=J1900. (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.dec]
+#Column	Tycho	(a5)	Cross-identification with Tycho-2 (Cat. IV/25)	[ucd=meta.ref.url]
+deg;deg; ; ;"h:m:s";"d:m:s"; ;mag; ; ;mag; ; ; ; ; ;"h:m:s";"d:m:s";
+--------;--------;------;------------;-------;------;-;-----;-;-;-----;-;---;--;-;------;----------;---------;-----
